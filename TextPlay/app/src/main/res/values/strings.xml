@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TextPlay</string>
+    <string name="txt_play">Playing Text</string>
+    <string name="hint_text">Enter Text</string>
+    <string name="btn_command">command</string>
+</resources>
