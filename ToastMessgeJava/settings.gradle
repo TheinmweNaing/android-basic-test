@@ -1,0 +1,2 @@
+rootProject.name='ToastMessgeJava'
+include ':app'

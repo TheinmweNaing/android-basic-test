@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ToastMessgeJava</string>
+    <string name="btn_one">Button One</string>
+    <string name="btn_two">Button Two</string>
+    <string name="btn_three">Button Three</string>
+    <string name="btn_four">Button Four</string>
+    <string name="btn_five">Button Five</string>
+</resources>
