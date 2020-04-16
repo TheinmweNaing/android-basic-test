@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LikeAndUnlike</string>
+    <string name="txt_like">%s people like this!</string>
+    <string name="btn_like">Like</string>
+    <string name="btn_unlike">Unlike</string>
+</resources>
