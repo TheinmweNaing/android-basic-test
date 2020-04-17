@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IntentAndActivity</string>
+    <string name="txt_play_music">Play Nice Music</string>
+    <string name="ed_hint">Enter Text</string>
+    <string name="btn_start_activity">S Activity</string>
+    <string name="btn_sa_for_result">SA for Result</string>
+    <string name="rd_android">Android</string>
+    <string name="rd_swift">Swift</string>
+    <string name="rd_java">Java</string>
+    <string name="btn_finish">Finish</string>
+    <string name="txt_choose">You Choose %s.</string>
+</resources>
