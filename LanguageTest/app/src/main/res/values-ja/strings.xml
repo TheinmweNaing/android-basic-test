@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">テスト</string>
+    <string name="txt_android">アンドロイド (or) コトリン</string>
+    <string name="btn_load_text">テキストを読み込む</string>
+    <string name="hint_text">テキストを入力してください</string>
+    <string name="btn_change_jp">Change To Japanese</string>
+    <string name="btn_change_eng">Change To English</string>
+    <string name="txt_load">ここにテキストを読み込む...</string>
+</resources>

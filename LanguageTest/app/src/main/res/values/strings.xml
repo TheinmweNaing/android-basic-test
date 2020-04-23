@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LanguageTest</string>
+    <string name="txt_android">Android and Kotlin!!</string>
+    <string name="btn_load_text">Load Text</string>
+    <string name="hint_text">Enter Text</string>
+    <string name="btn_change_jp">Change To Japanese</string>
+    <string name="btn_change_eng">Change To English</string>
+    <string name="txt_load">Load Text Here...</string>
+</resources>
