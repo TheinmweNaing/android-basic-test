@@ -5,5 +5,5 @@
     <string name="hint_text">Enter Text</string>
     <string name="btn_change_jp">Change To Japanese</string>
     <string name="btn_change_eng">Change To English</string>
-    <string name="txt_load">Load Text Here...</string>
+    <string name="txt_load">Load Text Here…</string>
 </resources>
