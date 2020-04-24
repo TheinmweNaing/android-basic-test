@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ActionTest</string>
+    <string name="title">Explore Your Skill by Checking Box</string>
+    <string name="radio_call_phone">Call Phone</string>
+    <string name="radio_send_email">Send Email with Implicit Intent</string>
+    <string name="radio_play_video">Learn to Play Video</string>
+    <string name="radio_send_picture">Send Drawable Picture</string>
+    <string name="radio_internal_memory">Send Internal Memory Picture</string>
+    <string name="btn_go">GO</string>
+</resources>
