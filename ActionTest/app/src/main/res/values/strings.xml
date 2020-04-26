@@ -7,4 +7,8 @@
     <string name="radio_send_picture">Send Drawable Picture</string>
     <string name="radio_internal_memory">Send Internal Memory Picture</string>
     <string name="btn_go">GO</string>
+    <string name="txt_slide">Android Developer School မွျကိုဆိုပါသည္။ video မ်ားကိုလည္းရယူႏိုင္ပါသည္။</string>
+    <string name="hint">Enter Text</string>
+    <string name="btn_call_phone">Call Phone</string>
+    <string name="btn_check_bill">Check Bill</string>
 </resources>
