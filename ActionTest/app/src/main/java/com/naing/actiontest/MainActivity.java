@@ -1,8 +1,9 @@
 package com.naing.actiontest;
 
-import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.RadioGroup;
 
@@ -28,15 +29,15 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     public void onCheckedChanged(RadioGroup group, int checkedId) {
         switch (checkedId) {
             case R.id.rdCallPhone:
-                createActivity(MainActivity.this, CallPhoneActivity.class);
-                /*Intent intent = new Intent(MainActivity.this, CallPhoneActivity.class);
-                startActivity(intent);*/
+                Intent intent = new Intent(MainActivity.this, CallPhoneActivity.class);
+                startActivity(intent);
                 break;
             case R.id.rdEmail:
                 break;
             case R.id.rdVideo:
                 break;
             case R.id.rdPicture:
+                sendPicsFromDrawable();
                 break;
             case R.id.rdMemory:
                 break;
@@ -44,8 +45,15 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         }
     }
 
-    private void createActivity(Context packageContext, Class<?> cls) {
-        Intent intent = new Intent(packageContext, cls);
-        startActivity(intent);
+    private void sendPicsFromDrawable() {
+        String path = "android.resource://com.naing.actiontest/drawable/profile";
+        Log.d("TAG", path);
+        Uri uri = Uri.parse(path);
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.putExtra(Intent.EXTRA_STREAM, uri);
+        intent.putExtra(Intent.EXTRA_TEXT, "Sending from Emulator!");
+        intent.setType("image/*");
+        startActivity(Intent.createChooser(intent, "Choose App!"));
     }
+
 }

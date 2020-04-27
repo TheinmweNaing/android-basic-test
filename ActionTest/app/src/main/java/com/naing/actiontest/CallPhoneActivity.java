@@ -34,23 +34,23 @@ public class CallPhoneActivity extends AppCompatActivity implements View.OnClick
         switch (v.getId()) {
             case R.id.btnCall:
                 String telNo = binding.edText.getText().toString();
-                callAction(telNo);
+                actionPhoneCall(telNo);
                 break;
             case R.id.btnCheckBill:
-                String code = Uri.encode("#");
-                String billCode = "*124".concat(code);
-                callAction(billCode);
+                String billCode = Uri.encode("*124#");
+                actionPhoneCall(billCode);
                 break;
         }
     }
 
-    private void callAction(String code) {
+    private void actionPhoneCall(String code) {
         Log.d("TAG", code);
+        Intent intentCallPhone = new Intent(Intent.ACTION_CALL);
+        intentCallPhone.setData(Uri.parse("tel:" + code));
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-            Intent intentCallPhone = new Intent(Intent.ACTION_CALL);
-            intentCallPhone.setData(Uri.parse("tel:" + code));
-            startActivity(intentCallPhone);
+            //TODO to implement app permission
+            return;
         }
-
+        startActivity(intentCallPhone);
     }
 }
