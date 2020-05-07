@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FragmentLessonOne</string>
+    <string name="btn_one">Button One</string>
+    <string name="btn_two">Button Two</string>
+    <string name="txt_one">You clicked ButtonOne %s</string>
+    <string name="txt_two">You clicked ButtonTwo %s</string>
+</resources>
